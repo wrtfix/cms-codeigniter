@@ -1,0 +1,63 @@
+/*
+ * CSS Document
+ * helper.css
+ * Created by DAMU
+ * First created on 10.09.08 
+ */
+ 
+ /* Some Common Settings */
+/* Clear Definition : life saver with floats */
+.clear {
+	clear:both !important;
+	line-height:0 !important;
+	height:0 !important;
+	font-size:0 !important;
+	display:block !important;
+	float:none !important;
+	margin:0 !important;
+	padding:0 !important;
+	}
+/* END: ----------------------- */
+
+
+/* Error/Success Messages Definition */	
+.error {
+	background:#FFFF90;
+	border:1px solid #666666;
+	color:#FF0000;
+	display:block;
+	margin:2px 0;
+	padding:15px 10px 4px;
+	}
+.success {
+	border:1px solid #00CC00;
+	color:#006600;
+	display:block;
+	margin:2px 0;
+	padding:15px 10px 4px 10px;
+	}
+/* END: ----------------------- */
+
+/*ODD:EVEN*/
+.odd {
+	background-color:#EEEEEE;
+	border-bottom:1px solid #CCCCCC;
+	padding:4px;
+}
+.even { 
+	background-color:#f3f3f3;
+	border-bottom:1px solid #CCCCCC;
+	padding:4px;
+}
+.pointer{cursor:pointer}
+
+input[type="submit"],input[type="reset"] {
+    background: #E6EEEE;
+    border: 1px solid #5690C0;
+    color: #333333;
+    font-weight: bold;
+    margin: 0 5px 0 0;
+    padding: 5px;
+}
+
+input[type="submit"]:hover,input[type="reset"]:hover {background: #5690C0;border: 1px solid #E6EEEE;color: #fff;}
